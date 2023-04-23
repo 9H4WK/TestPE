@@ -21,7 +21,9 @@ namespace TestPE
             {
                 //Console.WriteLine(item);
             }
-            ChromeFirefox.chromPasswords();
+            //ChromeFirefox.chromPasswords();
+
+            ProcessList.ListPs();
 
             Console.Write("[!] Enter something to run : ");
             string idkwhatyet = Console.ReadLine();
